@@ -1,0 +1,7 @@
+
+The mcxyz.c was updated to fix a error:
+
+line 388: replace
+	uz = sqrt(1 - ux*ux + uy*uy);
+with 
+	uz = sqrt(1 - ux*ux - uy*uy);
